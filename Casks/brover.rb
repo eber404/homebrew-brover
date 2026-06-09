@@ -1,9 +1,9 @@
 cask "brover" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.3"
-  sha256 arm: "1d0ca89b8449e5394f7790155ac01a29f4f658fb2c7e242a98ef769a506e72be",
-         intel: "c4ba839b95b0065290ffaa5564c037a6695dc0057e64166fc3169dd3c1ee9396"
+  version "0.1.4"
+  sha256 arm: "482f6f6939480d191c7bf0e2dd6d82abc13be488cb5965e5e2f394df11a3933d",
+         intel: "09bfeddafbad090e1ae0b5d3b3cad92fd1528fd3c5cac3fa0eae8248ff664852"
 
   url "https://github.com/eber404/brover-releases/releases/download/v#{version}/Brover-#{version}-#{arch}.dmg"
   name "Brover"
